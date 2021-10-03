@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0520A43724CE5DA0009CA0C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520A43624CE5DA0009CA0C1 /* AppDelegate.swift */; };
+		0520A43924CE5DA0009CA0C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0520A43824CE5DA0009CA0C1 /* Assets.xcassets */; };
+		0520A43C24CE5DA0009CA0C1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0520A43A24CE5DA0009CA0C1 /* MainMenu.xib */; };
+		0520A44524CE6221009CA0C1 /* UAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520A44424CE6221009CA0C1 /* UAView.swift */; };
+		0520A44724CE66A0009CA0C1 /* UAItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520A44624CE66A0009CA0C1 /* UAItemView.swift */; };
+		0520A44B24CE6FF5009CA0C1 /* UACalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520A44A24CE6FF5009CA0C1 /* UACalendar.swift */; };
+		0520A44D24CE756C009CA0C1 /* UADateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520A44C24CE756C009CA0C1 /* UADateUtil.swift */; };
+		0520A45124CEA8A0009CA0C1 /* FlippedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520A45024CEA8A0009CA0C1 /* FlippedView.swift */; };
+		0520A45324CEE76D009CA0C1 /* UAServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520A45224CEE76D009CA0C1 /* UAServerRequest.swift */; };
+		052225B124DC17EC008D2FAA /* UATextAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052225B024DC17EC008D2FAA /* UATextAttribute.swift */; };
+		055B1E3924DE4FCD00736DBE /* RERecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055B1E3824DE4FCD00736DBE /* RERecord.swift */; };
+		055D241224DCB1D900FCEF8E /* WinResultControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055D241124DCB1D900FCEF8E /* WinResultControl.swift */; };
+		055D241424DCB26E00FCEF8E /* WinResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = 055D241324DCB26E00FCEF8E /* WinResult.xib */; };
+		055D241624DCB35600FCEF8E /* REMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055D241524DCB35600FCEF8E /* REMainView.swift */; };
+		055D241824DCEE8400FCEF8E /* REHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055D241724DCEE8400FCEF8E /* REHeaderView.swift */; };
+		055D241B24DD84BD00FCEF8E /* NSBezierPath+MyBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055D241A24DD84BD00FCEF8E /* NSBezierPath+MyBezierPath.swift */; };
+		055D241D24DD8B1700FCEF8E /* REElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055D241C24DD8B1700FCEF8E /* REElementView.swift */; };
+		0575C4DF24E27906002EAA9E /* holiday.json in Resources */ = {isa = PBXBuildFile; fileRef = 0575C4DE24E27906002EAA9E /* holiday.json */; };
+		0589AAA424D05559005FF4FC /* UACalendarDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0589AAA324D05559005FF4FC /* UACalendarDate.swift */; };
+		0589AAA724D19811005FF4FC /* WinDataEntryControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0589AAA624D19811005FF4FC /* WinDataEntryControl.swift */; };
+		0589AAA924D19E92005FF4FC /* WinDataEntry.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0589AAA824D19E92005FF4FC /* WinDataEntry.xib */; };
+		0589AAAB24D255BB005FF4FC /* BPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0589AAAA24D255BB005FF4FC /* BPButton.swift */; };
+		0589AAAD24D27F94005FF4FC /* BPLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0589AAAC24D27F94005FF4FC /* BPLabel.swift */; };
+		0589AAAF24D28728005FF4FC /* BPValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0589AAAE24D28728005FF4FC /* BPValueView.swift */; };
+		05E7D83C24D65DDD004DBE56 /* BPAcceptButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E7D83B24D65DDD004DBE56 /* BPAcceptButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0520A43324CE5DA0009CA0C1 /* MyHealthCaledar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHealthCaledar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0520A43624CE5DA0009CA0C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0520A43824CE5DA0009CA0C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0520A43B24CE5DA0009CA0C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0520A43D24CE5DA0009CA0C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0520A43E24CE5DA0009CA0C1 /* MyHealthCaledar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyHealthCaledar.entitlements; sourceTree = "<group>"; };
+		0520A44424CE6221009CA0C1 /* UAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UAView.swift; sourceTree = "<group>"; };
+		0520A44624CE66A0009CA0C1 /* UAItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UAItemView.swift; sourceTree = "<group>"; };
+		0520A44A24CE6FF5009CA0C1 /* UACalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UACalendar.swift; sourceTree = "<group>"; };
+		0520A44C24CE756C009CA0C1 /* UADateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UADateUtil.swift; sourceTree = "<group>"; };
+		0520A45024CEA8A0009CA0C1 /* FlippedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippedView.swift; sourceTree = "<group>"; };
+		0520A45224CEE76D009CA0C1 /* UAServerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UAServerRequest.swift; sourceTree = "<group>"; };
+		052225B024DC17EC008D2FAA /* UATextAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UATextAttribute.swift; sourceTree = "<group>"; };
+		055B1E3824DE4FCD00736DBE /* RERecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RERecord.swift; sourceTree = "<group>"; };
+		055D241124DCB1D900FCEF8E /* WinResultControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinResultControl.swift; sourceTree = "<group>"; };
+		055D241324DCB26E00FCEF8E /* WinResult.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WinResult.xib; sourceTree = "<group>"; };
+		055D241524DCB35600FCEF8E /* REMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REMainView.swift; sourceTree = "<group>"; };
+		055D241724DCEE8400FCEF8E /* REHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REHeaderView.swift; sourceTree = "<group>"; };
+		055D241A24DD84BD00FCEF8E /* NSBezierPath+MyBezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSBezierPath+MyBezierPath.swift"; sourceTree = "<group>"; };
+		055D241C24DD8B1700FCEF8E /* REElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REElementView.swift; sourceTree = "<group>"; };
+		0575C4DE24E27906002EAA9E /* holiday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = holiday.json; sourceTree = "<group>"; };
+		0589AAA324D05559005FF4FC /* UACalendarDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UACalendarDate.swift; sourceTree = "<group>"; };
+		0589AAA624D19811005FF4FC /* WinDataEntryControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinDataEntryControl.swift; sourceTree = "<group>"; };
+		0589AAA824D19E92005FF4FC /* WinDataEntry.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WinDataEntry.xib; sourceTree = "<group>"; };
+		0589AAAA24D255BB005FF4FC /* BPButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPButton.swift; sourceTree = "<group>"; };
+		0589AAAC24D27F94005FF4FC /* BPLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPLabel.swift; sourceTree = "<group>"; };
+		0589AAAE24D28728005FF4FC /* BPValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPValueView.swift; sourceTree = "<group>"; };
+		05E7D83B24D65DDD004DBE56 /* BPAcceptButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPAcceptButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0520A43024CE5DA0009CA0C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0520A42A24CE5DA0009CA0C1 = {
+			isa = PBXGroup;
+			children = (
+				055D241924DD847300FCEF8E /* Extension */,
+				0520A43524CE5DA0009CA0C1 /* MyHealthCaledar */,
+				0589AAA524D197D1005FF4FC /* DataEntry */,
+				052225B224DC49C7008D2FAA /* Graph */,
+				0520A43424CE5DA0009CA0C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0520A43424CE5DA0009CA0C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0520A43324CE5DA0009CA0C1 /* MyHealthCaledar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0520A43524CE5DA0009CA0C1 /* MyHealthCaledar */ = {
+			isa = PBXGroup;
+			children = (
+				0575C4DE24E27906002EAA9E /* holiday.json */,
+				0520A43624CE5DA0009CA0C1 /* AppDelegate.swift */,
+				0520A44424CE6221009CA0C1 /* UAView.swift */,
+				0520A44624CE66A0009CA0C1 /* UAItemView.swift */,
+				0520A44A24CE6FF5009CA0C1 /* UACalendar.swift */,
+				0589AAA324D05559005FF4FC /* UACalendarDate.swift */,
+				0520A44C24CE756C009CA0C1 /* UADateUtil.swift */,
+				052225B024DC17EC008D2FAA /* UATextAttribute.swift */,
+				0520A45224CEE76D009CA0C1 /* UAServerRequest.swift */,
+				0520A45024CEA8A0009CA0C1 /* FlippedView.swift */,
+				0520A43824CE5DA0009CA0C1 /* Assets.xcassets */,
+				0520A43A24CE5DA0009CA0C1 /* MainMenu.xib */,
+				0520A43D24CE5DA0009CA0C1 /* Info.plist */,
+				0520A43E24CE5DA0009CA0C1 /* MyHealthCaledar.entitlements */,
+			);
+			path = MyHealthCaledar;
+			sourceTree = "<group>";
+		};
+		052225B224DC49C7008D2FAA /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				055D241124DCB1D900FCEF8E /* WinResultControl.swift */,
+				055D241524DCB35600FCEF8E /* REMainView.swift */,
+				055D241724DCEE8400FCEF8E /* REHeaderView.swift */,
+				055D241C24DD8B1700FCEF8E /* REElementView.swift */,
+				055B1E3824DE4FCD00736DBE /* RERecord.swift */,
+				055D241324DCB26E00FCEF8E /* WinResult.xib */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		055D241924DD847300FCEF8E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				055D241A24DD84BD00FCEF8E /* NSBezierPath+MyBezierPath.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0589AAA524D197D1005FF4FC /* DataEntry */ = {
+			isa = PBXGroup;
+			children = (
+				0589AAA624D19811005FF4FC /* WinDataEntryControl.swift */,
+				0589AAAA24D255BB005FF4FC /* BPButton.swift */,
+				0589AAAC24D27F94005FF4FC /* BPLabel.swift */,
+				0589AAAE24D28728005FF4FC /* BPValueView.swift */,
+				05E7D83B24D65DDD004DBE56 /* BPAcceptButton.swift */,
+				0589AAA824D19E92005FF4FC /* WinDataEntry.xib */,
+			);
+			path = DataEntry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0520A43224CE5DA0009CA0C1 /* MyHealthCaledar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0520A44124CE5DA0009CA0C1 /* Build configuration list for PBXNativeTarget "MyHealthCaledar" */;
+			buildPhases = (
+				0520A42F24CE5DA0009CA0C1 /* Sources */,
+				0520A43024CE5DA0009CA0C1 /* Frameworks */,
+				0520A43124CE5DA0009CA0C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyHealthCaledar;
+			productName = MyHealthCaledar;
+			productReference = 0520A43324CE5DA0009CA0C1 /* MyHealthCaledar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0520A42B24CE5DA0009CA0C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "権兵衛";
+				TargetAttributes = {
+					0520A43224CE5DA0009CA0C1 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1130;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0520A42E24CE5DA0009CA0C1 /* Build configuration list for PBXProject "MyHealthCaledar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0520A42A24CE5DA0009CA0C1;
+			productRefGroup = 0520A43424CE5DA0009CA0C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0520A43224CE5DA0009CA0C1 /* MyHealthCaledar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0520A43124CE5DA0009CA0C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0575C4DF24E27906002EAA9E /* holiday.json in Resources */,
+				0520A43924CE5DA0009CA0C1 /* Assets.xcassets in Resources */,
+				0520A43C24CE5DA0009CA0C1 /* MainMenu.xib in Resources */,
+				0589AAA924D19E92005FF4FC /* WinDataEntry.xib in Resources */,
+				055D241424DCB26E00FCEF8E /* WinResult.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0520A42F24CE5DA0009CA0C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055D241B24DD84BD00FCEF8E /* NSBezierPath+MyBezierPath.swift in Sources */,
+				055D241824DCEE8400FCEF8E /* REHeaderView.swift in Sources */,
+				0520A44724CE66A0009CA0C1 /* UAItemView.swift in Sources */,
+				0589AAAF24D28728005FF4FC /* BPValueView.swift in Sources */,
+				055D241624DCB35600FCEF8E /* REMainView.swift in Sources */,
+				055D241D24DD8B1700FCEF8E /* REElementView.swift in Sources */,
+				0520A44B24CE6FF5009CA0C1 /* UACalendar.swift in Sources */,
+				0520A45124CEA8A0009CA0C1 /* FlippedView.swift in Sources */,
+				0520A44D24CE756C009CA0C1 /* UADateUtil.swift in Sources */,
+				0589AAA424D05559005FF4FC /* UACalendarDate.swift in Sources */,
+				052225B124DC17EC008D2FAA /* UATextAttribute.swift in Sources */,
+				0520A45324CEE76D009CA0C1 /* UAServerRequest.swift in Sources */,
+				0589AAAB24D255BB005FF4FC /* BPButton.swift in Sources */,
+				0520A44524CE6221009CA0C1 /* UAView.swift in Sources */,
+				055D241224DCB1D900FCEF8E /* WinResultControl.swift in Sources */,
+				0520A43724CE5DA0009CA0C1 /* AppDelegate.swift in Sources */,
+				0589AAAD24D27F94005FF4FC /* BPLabel.swift in Sources */,
+				0589AAA724D19811005FF4FC /* WinDataEntryControl.swift in Sources */,
+				05E7D83C24D65DDD004DBE56 /* BPAcceptButton.swift in Sources */,
+				055B1E3924DE4FCD00736DBE /* RERecord.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0520A43A24CE5DA0009CA0C1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0520A43B24CE5DA0009CA0C1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0520A43F24CE5DA0009CA0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0520A44024CE5DA0009CA0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		0520A44224CE5DA0009CA0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyHealthCaledar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikomokaru.MyHealthCaledar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0520A44324CE5DA0009CA0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyHealthCaledar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikomokaru.MyHealthCaledar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0520A42E24CE5DA0009CA0C1 /* Build configuration list for PBXProject "MyHealthCaledar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0520A43F24CE5DA0009CA0C1 /* Debug */,
+				0520A44024CE5DA0009CA0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0520A44124CE5DA0009CA0C1 /* Build configuration list for PBXNativeTarget "MyHealthCaledar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0520A44224CE5DA0009CA0C1 /* Debug */,
+				0520A44324CE5DA0009CA0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0520A42B24CE5DA0009CA0C1 /* Project object */;
+}
