@@ -23,5 +23,9 @@ Click list display button to display a list of blood pressure for the month. Eac
 ## Application design
 
 It is a client / server method. The application sends an HTTP request to the server, and the server returns JSON-formatted response data. The database is implemented in MySQL, and data is referenced and updated with PHP scripts.
-* Webサーバー：Apache2.4 & PHP5.6
-* データベース：MySQL5.7
+* Web Server：Apache2.4 & PHP5.6
+* Database：MySQL5.7
+
+## Class structure diagram
+
+<img src="http://mikomokaru.sakura.ne.jp/data/B18/calendar3.png" alt="calendar" title="diagram" width="300">
