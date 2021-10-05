@@ -28,4 +28,4 @@ It is a client / server method. The application sends an HTTP request to the ser
 
 ## Class structure diagram
 
-<img src="http://mikomokaru.sakura.ne.jp/data/B18/calendar3.png" alt="calendar" title="diagram" width="300">
+<img src="http://mikomokaru.sakura.ne.jp/data/B18/calendar3.png" alt="calendar" title="diagram" width="450">
