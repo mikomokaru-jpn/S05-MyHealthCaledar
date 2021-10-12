@@ -212,9 +212,9 @@ class UAView: NSView, UAItemViewDelegate, WinDataEntryControlDelegate {
                           calendar.year, calendar.month, wareki[0], wareki[1])
         headerView.needsDisplay = true
         //血圧データの取得
-        //let cmd = "http://192.168.11.3:5000/sql_r10"
-        let cmd = "http://localhost:5000/sql_r10"
-        //let cmd = "http://192.168.11.3/doc_health_calendar/php/sql_r10.php"
+        //let cmd = "http://192.168.11.3:5000/sql_r10" //node.js 
+        //let cmd = "http://localhost:5000/sql_r10"
+        let cmd = "http://192.168.11.3/doc_health_calendar/php/sql_r10.php"
         //let cmd = "http://localhost/doc_health_calendar/php/sql_r10.php"
         let param = String(format:"id=%ld&from_date=%ld&to_date=%ld",
                            500, calendar.startOfCalendar, calendar.endOfCalendar)

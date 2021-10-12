@@ -141,9 +141,9 @@ class WinDataEntryControl: NSWindowController,
                 return
             }
             //DB更新
-            //let cmd = "http://192.168.11.3:5000/sql_w10"
-            let cmd = "http://localhost:5000/sql_w10"
-            //let cmd = "http://192.168.11.3/doc_health_calendar/php/sql_w10.php"
+            //let cmd = "http://192.168.11.3:5000/sql_w10" //node.js
+            //let cmd = "http://localhost:5000/sql_w10"
+            let cmd = "http://192.168.11.3/doc_health_calendar/php/sql_w10.php"
             //let cmd = "http://localhost/doc_health_calendar/php/sql_w10.php"
             let param = String(format:"id=%ld&date=%ld&lower=%ld&upper=%ld&confirm=%ld",
                                500 ,thisDate!.integerYearMonthDay,
@@ -211,9 +211,9 @@ class WinDataEntryControl: NSWindowController,
     //--------------------------------------------------------------------------
     func getData(date:UACalendarDate){
         thisDate = date //対象日
-        //let cmd = "http://192.168.11.3:5000/sql_r20"
-        let cmd = "http://localhost:5000/sql_r20"
-        //let cmd = "http://192.168.11.3/doc_health_calendar/php/sql_r20.php"
+        //let cmd = "http://192.168.11.3:5000/sql_r20"  //node.js 
+        //let cmd = "http://localhost:5000/sql_r20"
+        let cmd = "http://192.168.11.3/doc_health_calendar/php/sql_r20.php"
         //let cmd = "http://localhost/doc_health_calendar/php/sql_r20.php"
 
         let param = String(format:"id=%ld&date=%ld",500 ,date.integerYearMonthDay)
